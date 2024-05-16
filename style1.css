@@ -1,0 +1,259 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+}
+header {
+    background-color:darkcyan;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    height: 80px;
+}
+
+.header ul li{
+    display:inline;
+    text-decoration: none;
+    margin-right: 20px;
+    float:right;
+    text-transform: uppercase;
+    font-size: medium;
+}
+
+
+
+a{
+    text-decoration: none;
+    color:black;
+    
+}
+.banner img{
+    width:100%;
+    height:500px;
+}
+
+footer {
+    background-color:darkcyan;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.Aboutus p{
+   padding: 0px 120px;
+   font-size:20px;
+   line-height:40px;
+}
+
+.Aboutus h1{
+     font-size: 50px;
+     color:darkgoldenrod;
+}
+
+.Aboutus h3{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.Contactus{
+    background-color:lightblue;
+    padding:20px;
+}
+
+.Contactus p{
+    padding:20px;
+    line-height:10px;
+}
+
+.login input{
+    display:block;
+    padding:12px;
+    margin:10px;
+    width:380px;
+    border-radius:7px;
+}
+.form{
+    position:absolute;
+    left:550px;
+    background-color:lightseagreen;
+    padding:10px;
+}
+
+.login h2{
+    padding:20px;
+    text-align: center;
+}
+
+.login button{
+    background-color:darkgreen;
+    color:white;
+    padding:10px;
+    border-radius: 7px;
+    float:right;
+    margin-right:20px;
+}
+
+.login textarea{
+    border-radius: 7px;
+    padding-left: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.forgetpsw a{
+      color:white;
+      float:left;
+
+}
+
+.login{
+    margin-top: 20px;
+}
+
+.banner p{
+ position: absolute;
+ top:200px;
+ color:white;
+ font-size:35px;
+ font-family:Georgia, 'Times New Roman', Times, serif;
+ text-shadow:3px 4px 5px limegreen;
+}
+
+
+* {
+    box-sizing: border-box;
+  }
+  
+  /* Style the search field */
+  form.example input[type=text] {
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid grey;
+    float: left;
+    width:350px;
+    background: #f1f1f1;
+  }
+  
+  /* Style the submit button */
+  form.example button {
+    float: left;
+    width: 40px;
+    padding: 10px;
+    background: #2196F3;
+    color: white;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none; /* Prevent double borders */
+    cursor: pointer;
+  }
+  
+  form.example button:hover {
+    background: #0b7dda;
+  }
+  
+  /* Clear floats */
+  form.example::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  .banner form {
+    position: absolute;
+    top:450px;
+    right:550px;
+  }
+
+  
+.banner ul li{
+    display:inline;
+    text-decoration: none;
+    font-size: medium;
+    position:relative;
+    bottom:200px;
+    padding:15px;
+    left:650px;
+    margin:7px;
+    border-radius:6px;
+    box-shadow: 0 0 10px black;
+    background-color:lightcyan;
+    color:darkslategray;
+}
+
+.headers ul li{
+    display:inline;
+    text-decoration: none;
+    font-size: medium;
+    padding:5px;
+    border-radius:6px;
+    box-shadow: 0 0 10px black;
+    background-color:honeydew;
+    float:left;
+    position:relative;
+    bottom:20px;
+}
+
+.title{
+    text-align: center;
+    container-type: justify;
+    
+}
+
+.title h1{
+    padding:20px;
+    color:darkslategray;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:40px;
+    font-weight: bold;
+}
+
+.title p{
+    padding:10px;
+    line-height: 40px;
+    font-size:20px;
+}
+.gallery img{
+    width:300px;
+    height:200px;
+}
+.gallery .splimg {
+    height:400px;
+}
+
+.card {
+   float: left;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width:20%;
+    padding-bottom: 10px;
+  }
+
+  .card img{
+    width:100%;
+    height:200px;
+    padding:10px;
+    margin:10px;
+    border-radius: 7px;
+
+
+  }
+  
+  
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+
+  .container {
+    padding: 2px 16px;
+  }
+
+  .card_title{
+    padding:60px;
+    font-size:35px;
+    text-align: center;
+    position: absolute;
+    left:20px;
+  }
